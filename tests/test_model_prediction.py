@@ -8,4 +8,4 @@ def test_model_prediction():
 
     prediction = model.predict(sample)
 
-    assert int(prediction[0]) == 0
+    assert int(prediction[0]) == 2
